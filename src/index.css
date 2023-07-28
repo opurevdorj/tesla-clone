@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham SSm", -apple-system, "system-ui", "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
+  
+}
+#header {
+  position: fixed;
+  z-index: 10;}
+/* Banner */
+
+#bannerContainer {
+  width: 100vw;
+  height: 53px;
+  background-image: radial-gradient(
+    54.97% 272.54% at 27.36% -134.72%,
+    rgba(108, 148, 255, 0.92) 0,
+    rgba(0, 0, 0, 0.92) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bannerCreditText {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+}
+#bannerText {
+  padding: 0px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+#bannerSeeDetails {
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  text-decoration: underline;
+}
+
+/* navbar */
+
+#navbarContainer {
+  width: 100vw;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  
+}
+
+#logoContainer {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+}
+#logo {
+  width: 120px;
+  height: 24px;
+}
+#navbarItemContainer {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbarMenuContainer {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* main */
+
+#videoContainer { 
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-attachment: fixed;
+  
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#videoTextContainer
+{position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-between
+}
+#videoTextContainerTitle {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+
+}
+#textExperience {
+font-size: 40px;
+line-height: 48px;
+margin-bottom: 10px;
+font-weight: 500;
+
+}
+#textSchedule {
+font-size: 14px;
+line-height: 20px;
+
+}
+#titleDemo {
+  width: 264px;
+  height: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: transparent;
+  border: 4px solid rgba(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+}
+#imageContainer {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-NA.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#model3TextContainer {
+  position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-between
+}
+#model3TitleContainer {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#model3 {
+  font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgb(23, 26, 32);
+    margin-bottom: 10px;
+}
+#FederalTax {
+  font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(23, 26, 32);
+    text-align: center;
+}
+
+.primary-button {
+  width: 264px;
+  height: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: rgba(244, 244, 244, 0.8);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(57, 60, 65);
+  border-radius: 4px;
+  margin-bottom: 40px;
+  
+}
+.secondary-button {
+  width: 264px;
+  height: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: rgba(23, 26, 32, 0.65);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+#image2Container {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-position: center center;
+}
+#image3Container {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#ExploreInventory{
+  text-decoration: underline;
+  color: rgb(23, 26, 32);
+}
+#image4Container {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-X-Desktop-LHD);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#image5Container {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/425_HP_SolarPanels_D);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#image6Container {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#image7Container {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-Desktop.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#image8Container {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#lastButtonContainer {
+  text-align: center;
+}
+/* footer  */
+
+#footerContainer {
+  width: 40vw;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(208, 209, 210);
+  
+}
+
+
+
+
+

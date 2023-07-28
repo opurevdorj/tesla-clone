@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  #bannerContainer {
+    height: 92px;
+    width: 375px;
+    text-align: center;
+  }
+  #bannerCreditText {
+    font-size: 12px;
+  }
+  #bannerText {
+    font-size: 12px;
+  }
+  .item {
+    display: none;
+  }
+  #logoIcon {
+    height: 12px;
+  }
+  #imageContainer {
+    background-position: center center;
+  }
+  #image2Container {
+    background-position: center center;
+  }
+  #image3Container {
+    background-position: center center;
+  }
+  #image4Container {
+    background-position: center center;
+  }
+  #image5Container {
+    background-position: center center;
+  }
+  #image6Container {
+    background-position: center center;
+  }
+  #image7Container {
+    background-position: center center;
+  }
+  #image8Container {
+    background-position: center center;
+}
+.primary-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#lastButton {
+  margin-left: 60px;
+}
+#model3TitleContainer {
+  padding-top: 80px;
+}
+#footerContainer {
+  width: 100vw;
+    height: 90px;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.footers1 {
+  display: none;
+}
+.footers {
+  display: flex;
+  flex-direction: column;
+  
+}
+#footerTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+}

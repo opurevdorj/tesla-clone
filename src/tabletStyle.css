@@ -1,0 +1,63 @@
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  #bannerContainer {
+    height: 73px;
+    width: 820px;
+    text-align: center;
+  }
+  .item {
+    display: none;
+  }
+  #videoContainer {
+    object-fit: cover;
+  }
+  #bannerSeeDetails {
+    margin-left: 50px;
+    text-align: center;
+  }
+  .secondary-button {
+    margin-left: 10px;
+  }
+  #imageContainer {
+    background-position: center center;
+  }
+  #image2Container {
+    background-position: center center;
+  }
+  #image3Container {
+    background-position: center center;
+  }
+  #image4Container {
+    background-position: center center;
+  }
+  #image5Container {
+    background-position: center center;
+  }
+  #image6Container {
+    background-position: center center;
+  }
+  #image7Container {
+    background-position: center center;
+  }
+  #image8Container {
+    background-position: center center;
+  }
+  #footerContainer {
+    width: 100vw;
+    height: 80px;
+    position: relative;
+    background-color: black;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  #footerTexts {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+  
+  }
+}
